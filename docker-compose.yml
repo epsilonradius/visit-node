@@ -1,10 +1,10 @@
 version: '3'
 services:
 
-	redis-server:
-		image: 'redis'
+        redis-server:
+                image: 'redis'
 
-	nodejs-visits-app:
-		build: .
-		ports:
-			- "4001:8081"
+        nodejs-visits-app:
+                build: .
+                ports:
+                - "4001:8081"
